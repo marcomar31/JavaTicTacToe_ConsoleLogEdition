@@ -1,6 +1,8 @@
+package views;
+
 import services.Input;
 
-public class MainMenu {
+public class MainMenuView {
     public static boolean partidaJugada = false;
     public static int pideOpcionMenu() {
         int opcion;

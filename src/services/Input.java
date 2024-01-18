@@ -5,9 +5,8 @@ import java.util.Scanner;
 import static services.Validator.esInt;
 
 public class Input {
-    private static Scanner sc;
+    private static final Scanner sc = new Scanner(System.in);
     public static int pideInt(String pregunta) {
-        sc = new Scanner(System.in);
         String input;
 
         do {
@@ -19,5 +18,9 @@ public class Input {
         } while (!esInt(input));
 
         return Integer.parseInt(input);
+    }
+
+    public static void cerrarScanner() {
+        sc.close();
     }
 }

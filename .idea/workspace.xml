@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="212084b0-f854-457c-bf02-263df1d48bb9" name="Changes" comment="Creado tablero y funciones y validaciones de edición de tablero y casillas. Pendiente: optimizar y mejorar código, reconocer victoria o tablero lleno y volver al menú.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/TicTacToeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/GameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Align 3 - Console log edition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Tic Tac Toe - Console log edition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MainMenuView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +46,29 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Java Align 3 - Console log edition" />
+    <configuration name="TicTacToeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controllers.TicTacToeGame" />
+      <module name="Java Tic Tac Toe - Console log edition" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Java Tic Tac Toe - Console log edition" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Java Tic Tac Toe - Console log edition" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TicTacToeGame" />
       </list>
     </recent_temporary>
   </component>
@@ -65,6 +81,14 @@
       <option name="presentableId" value="Default" />
       <updated>1705531065675</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creado tablero y funciones y validaciones de edición de tablero y casillas. Pendiente: optimizar y mejorar código, reconocer victoria o tablero lleno y volver al menú.">
+      <created>1705535945409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705535945409</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
