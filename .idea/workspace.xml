@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="212084b0-f854-457c-bf02-263df1d48bb9" name="Changes" comment="Código optimizado y mejorado, lógica para reconocer victoria y volver al menú. Se podrá seguor jugando hasta querer salir del juego. Pendiente: reconocer tablero lleno.">
+    <list default="true" id="212084b0-f854-457c-bf02-263df1d48bb9" name="Changes" comment="Juego finalizado. Código optimizado y mejorado, lógica para reconocer tablero lleno aplicada.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/TicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/TicTacToeGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/MainMenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MainMenuView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +89,20 @@
       <option name="project" value="LOCAL" />
       <updated>1705538658910</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Juego finalizado. Código optimizado y mejorado, lógica para reconocer tablero lleno aplicada.">
+      <created>1705539525862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705539525862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creado tablero y funciones y validaciones de edición de tablero y casillas. Pendiente: optimizar y mejorar código, reconocer victoria o tablero lleno y volver al menú." />
     <MESSAGE value="Código optimizado y mejorado, lógica para reconocer victoria y volver al menú. Se podrá seguor jugando hasta querer salir del juego. Pendiente: reconocer tablero lleno." />
-    <option name="LAST_COMMIT_MESSAGE" value="Código optimizado y mejorado, lógica para reconocer victoria y volver al menú. Se podrá seguor jugando hasta querer salir del juego. Pendiente: reconocer tablero lleno." />
+    <MESSAGE value="Juego finalizado. Código optimizado y mejorado, lógica para reconocer tablero lleno aplicada." />
+    <option name="LAST_COMMIT_MESSAGE" value="Juego finalizado. Código optimizado y mejorado, lógica para reconocer tablero lleno aplicada." />
   </component>
 </project>

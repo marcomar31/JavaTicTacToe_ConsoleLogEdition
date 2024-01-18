@@ -134,4 +134,28 @@ public class GameView {
         sc.nextLine();
     }
 
+    public void muestraInstrucciones() {
+        System.out.println("\nINSTRUCCIONES DE JUEGO: ");
+        System.out.println("Para seleccionar una casilla, deberá usar el teclado numérico de su teclado.");
+
+        String[][] tableroInstrucciones = new String[3][3];
+        int indice = 1;
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                tableroInstrucciones[i][j] = String.valueOf(indice);
+                indice++;
+            }
+        }
+
+        System.out.println(" -------------");
+        for (int i = 2; i >= 0; i--) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(" | ");
+                System.out.print(tableroInstrucciones[i][j]);
+            }
+            System.out.println(" |");
+            System.out.println(" -------------");
+        }
+    }
 }

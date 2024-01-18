@@ -13,6 +13,7 @@ public class MainMenuView {
             } else {
                 System.out.println("1. Jugar otra partida");
             }
+            System.out.println("2. Ver instrucciones");
             System.out.println("0. Salir del juego");
 
             opcion = Input.pideInt("Seleccione una opción: ");
@@ -25,6 +26,6 @@ public class MainMenuView {
     }
 
     private static boolean opcionValida(int opcion) {
-        return (opcion >= 0 && opcion <= 1);
+        return (opcion >= 0 && opcion <= 2);
     }
 }

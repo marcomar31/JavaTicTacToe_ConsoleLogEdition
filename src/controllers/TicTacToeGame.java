@@ -14,6 +14,7 @@ public class TicTacToeGame {
 
             switch (opcion) {
                 case 1 -> gameView.iniciaPartida();
+                case 2-> gameView.muestraInstrucciones();
                 case 0 -> System.out.println("Saliendo del juego...");
             }
         } while (opcion != 0);
