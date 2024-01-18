@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="212084b0-f854-457c-bf02-263df1d48bb9" name="Changes" comment="Creado tablero y funciones y validaciones de edición de tablero y casillas. Pendiente: optimizar y mejorar código, reconocer victoria o tablero lleno y volver al menú.">
-      <change afterPath="$PROJECT_DIR$/src/controllers/TicTacToeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/GameView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="212084b0-f854-457c-bf02-263df1d48bb9" name="Changes" comment="Código optimizado y mejorado, lógica para reconocer victoria y volver al menú. Se podrá seguor jugando hasta querer salir del juego. Pendiente: reconocer tablero lleno.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Align 3 - Console log edition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Tic Tac Toe - Console log edition.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MainMenuView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GameView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +80,19 @@
       <option name="project" value="LOCAL" />
       <updated>1705535945409</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Código optimizado y mejorado, lógica para reconocer victoria y volver al menú. Se podrá seguor jugando hasta querer salir del juego. Pendiente: reconocer tablero lleno.">
+      <created>1705538658910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705538658910</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creado tablero y funciones y validaciones de edición de tablero y casillas. Pendiente: optimizar y mejorar código, reconocer victoria o tablero lleno y volver al menú." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creado tablero y funciones y validaciones de edición de tablero y casillas. Pendiente: optimizar y mejorar código, reconocer victoria o tablero lleno y volver al menú." />
+    <MESSAGE value="Código optimizado y mejorado, lógica para reconocer victoria y volver al menú. Se podrá seguor jugando hasta querer salir del juego. Pendiente: reconocer tablero lleno." />
+    <option name="LAST_COMMIT_MESSAGE" value="Código optimizado y mejorado, lógica para reconocer victoria y volver al menú. Se podrá seguor jugando hasta querer salir del juego. Pendiente: reconocer tablero lleno." />
   </component>
 </project>

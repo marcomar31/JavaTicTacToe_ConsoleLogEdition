@@ -16,17 +16,21 @@ public class GameView {
 
     private void siguePartida() {
         boolean hayGanador;
+        boolean tableroLleno;
+
         do {
             muestraTablero();
             editaTablero(jugador);
 
             hayGanador = verificaGanador();
-            if (!hayGanador) {
-                if (jugador == 0) jugador = 1;
-                else if (jugador == 1) jugador = 0;
+            tableroLleno = tableroLleno();
+
+            if (!hayGanador && !tableroLleno) {
+                cambiaTurno();
             }
 
-        } while (!hayGanador);
+        } while (!hayGanador && !tableroLleno);
+
         muestraTablero();
         terminaPartida();
     }
@@ -59,6 +63,7 @@ public class GameView {
         boolean casillaLibre;
         int casilla;
         do {
+            System.out.println("Turno de Jugador " + (jugador+1));
             casilla = Input.pideInt("Seleccione una casilla del tablero: ");
             switch (casilla) {
                 case 1, 2, 3 -> i = 2;
@@ -81,6 +86,14 @@ public class GameView {
         tablero[i][j] = tachado;
     }
 
+    private void cambiaTurno() {
+        if (jugador == 0) {
+            jugador = 1;
+        } else {
+            jugador = 0;
+        }
+    }
+
     private boolean verificaGanador() {
         // Verify rows and columns
         for (int i = 0; i < 3; i++) {
@@ -99,6 +112,18 @@ public class GameView {
         }
 
         return false;
+    }
+
+    private boolean tableroLleno() {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (tablero[i][j].equals(" ")) {
+                    return false;
+                }
+            }
+        }
+        System.out.println("\n¡La partida ha terminado en empate!");
+        return true;
     }
 
     private void terminaPartida() {
