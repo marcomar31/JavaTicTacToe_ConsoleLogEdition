@@ -3,8 +3,9 @@ package views;
 import services.Input;
 
 public class MainMenuView {
+    private static final GameView gameView = new GameView();
     public static boolean partidaJugada = false;
-    public static int pideOpcionMenu() {
+    private static int pideOpcionMenu() {
         int opcion;
         do {
             System.out.println("\n---- MENÚ PRINCIPAL ---");
@@ -23,6 +24,20 @@ public class MainMenuView {
         } while (!opcionValida(opcion));
 
         return opcion;
+    }
+
+    public static void gestionaOpcionMenu() {
+        int opcion;
+
+        do {
+            opcion = pideOpcionMenu();
+
+            switch (opcion) {
+                case 1 -> gameView.iniciaPartida();
+                case 2-> gameView.muestraInstrucciones();
+                case 0 -> System.out.println("Saliendo del juego...");
+            }
+        } while (opcion != 0);
     }
 
     private static boolean opcionValida(int opcion) {
